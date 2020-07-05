@@ -20,7 +20,7 @@ header {
     top: 0;
     right: 0;
     margin-top: 5px;
-    margin-right: 10px;
+    margin-right: 18px;
 }
 
 header ul {
@@ -30,7 +30,7 @@ header ul {
 }
 
 header li {
-    margin: 5px;
+    margin: 8px;
     font-size: 1.3em;
 }
 
