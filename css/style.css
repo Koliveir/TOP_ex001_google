@@ -5,10 +5,24 @@
 }
 
 body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 8pt;
-        background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    background-color: #ffffff;
 }
+
+body a {
+    text-decoration: none;
+    color: #717171;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+body li {
+    list-style: none;
+}
+
 
 /* HEADER */
 
@@ -34,15 +48,6 @@ header li {
     font-size: 1.3em;
 }
 
-header a {
-    text-decoration: none;
-    color: rgba(0,0,0,0.87);
-}
-
-header a:hover {
-    text-decoration: underline;
-}
-
 header li input {
     width: 90px;
     height: 30px;
@@ -51,11 +56,12 @@ header li input {
     padding: 5px;
 }
 
+
 /* SECTION */
 
 section {
     width: auto;
-    height: 500px;
+    height: 50vh;
     margin-top: 10%;
     padding: 20px;
     text-align: center;
@@ -71,8 +77,8 @@ section {
 }
 
 #searchbar:hover {
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-    border-color: rgba(223,225,229,0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
 }
 
 #searchbar input {
@@ -82,7 +88,6 @@ section {
 
 #searchbar img {
     margin-top: 10px;
-
 }
 
 .botao {
@@ -98,58 +103,54 @@ section {
 }
 
 .botao:hover {
-    box-shadow:  0 1px 1px #c6c6c6;
+    box-shadow: 0 1px 1px #c6c6c6;
 }
 
-/* Footer */ 
+
+/* Footer */
 
 footer {
     background-color: #f2f2f2;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #e4e4e4;
-    font-size: 1.3em;
+    width: 100vw;
 }
 
 #pais {
-    background-color: #f2f2f2;
+    font-size: 120%;
     height: 35px;
-    padding: 10px;
-    margin-top: 165px;
+    border-bottom: 1px solid #e4e4e4;
     border-top: 1px solid #e4e4e4;
-    font-size: 1.3em;
-    color: #717171;
+    padding-left: 1.5%;
 }
 
 #pais p {
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-.rodape {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-}
-
-.rodape li {
-    list-style: none;
-    margin-left: 10px;
-}
-
-.rodape a {
-    text-decoration: none;
+    margin-top: 0.6%;
+    font-size: 130%;
     color: #717171;
 }
 
-.rodape a:hover {
-    text-decoration: underline;
+.rodape1 {
+    display: flex;
+    float: left;
+    width: 500px;
+    font-size: 130%;
+    padding: 10px;
 }
 
-.rodape ul {
+.rodape1 li {
+    margin-left: 10px;
+}
+
+.rodape2 {
     display: flex;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    font-size: 130%;
+    padding: 10px;
+}
+
+.rodape2 li {
+    margin-left: 10px;
 }
